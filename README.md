@@ -105,7 +105,7 @@ Close the Remote Desktop connection to DC-1 and reconnect into DC-1 as "mydomain
 
 In Azure, set Client-1's DNS settings to DC-1's Private IP address. Restart Client-1.
 
-<img src="https://i.imgur.com/LSpaLjJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d78yCWJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 In Client-1 join to DC-1's domain.
 System -> Rename Computer/Domain Changes -> and change the domain to "domain.com".
