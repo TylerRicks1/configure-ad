@@ -127,7 +127,7 @@ System Properties -> Remote Desktop -> Change Users -> domain users -> apply. Th
 <h2>Step 7 Create users and attempt to log into client-1 with one of the users</h2>
 <p>
 <img src="https://i.imgur.com/GMzClsl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/SyMK8LU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 Login to DC-1 as Jane and open PowerShell_ISE as an administrator. Next, create a new File and paste this script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into the file. Run the script and observe the accounts being created. Lastly, attempt to log into Client-1 with one of the accounts (take note of the password in the script). If you are able to log in you have been successful in setting up active directory and allowing users to RDP into your DC-1. 
